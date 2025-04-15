@@ -1,0 +1,16 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+mkdir TP-test
+cd TP-test
+git init 
+git remote add origin "https://github.com/Soyax14/TP-test.git"
+mkdir css
+cd css
+nano style.css
+git branch Emrane
+git checkout Emrane
+git add style.css
+git commit -m "css"
+git push -u origin Emrane
+git branch
