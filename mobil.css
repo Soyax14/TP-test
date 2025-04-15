@@ -1,0 +1,40 @@
+@media screen and (max-width: 640px) {
+
+    body main {
+        display: block;
+        padding: 5px;
+    }
+
+    body main section {
+        width: 95%;
+        margin: 15px auto;
+        padding: 0;
+        position: relative;
+    }
+
+    body main section img {
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+        display: block;
+    }
+
+    body main section p {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 39, 118, 0.9);
+        color: white;
+        padding: 15px;
+        margin: 0;
+        font-size: 0.9em;
+    }
+
+    body header {
+        padding: 0.5em;
+    }
+
+    body header img {
+        height: 50px;
+    }
+}
