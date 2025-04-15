@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f9f0;
+    color: #003366;
+}
+
+header {
+    width: 100%;
+    background-color: #009c3b; 
+    padding: 1em;
+    text-align: center;
+}
+
+header img {
+    height: 80px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+section {
+    background-color: #ffcc29; 
+    border: 2px solid #002776; 
+    border-radius: 8px;
+    padding: 1em;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+section p {
+    margin-top: 0.5em;
+    font-size: 1em;
+    color: #002776;
+}
